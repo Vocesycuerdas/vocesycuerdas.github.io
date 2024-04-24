@@ -98,7 +98,7 @@ button:hover {
 .sub-container {
   border-radius: 23px; /* Esquinas curvas */
   padding: 10px; /* Espacio interior */
-  margin: 5px; /* Espacio horizontal entre contenedores */
+  margin: 3px; /* Espacio horizontal entre contenedores */
   display: inline-block; /* Mostrar en línea */
   box-sizing: border-box; /* Incluir el padding y el borde en el ancho total */
   width: 200px; /* Ancho manual */
