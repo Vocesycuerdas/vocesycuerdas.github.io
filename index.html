@@ -1,141 +1,116 @@
-<!DOCTYPE HTML>
-<!--
-	Solid State by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Voces y Cuerdas
-		</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rincón Gitano</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <style>
+        /* Este estilo es solo para suavizar el desplazamiento */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <div class="maincontainer" id="banner">
+        <div>
+            <h1>Voces y Cuerdas</h1>
+        </div>
+        <div>
+            <p id="pt">
+                ¡Bienvenido a Voces y Cuerdas!
+                Agradecemos sinceramente tu elección de nuestros servicios. 
+                Justo debajo, encontrarás toda la información que necesitas sobre lo que ofrecemos. ¡Estamos aquí para hacer de tu experiencia musical algo inolvidable!
+            </p>
+        </div>
+        <div>
+            <div class="sub-container" id="sub-container-1">
+                <div class="imagen-container">
+                    <img src="/static/pngs/una.jpg" alt="Descripción de la imagen" class="imagen-pequena">
+                </div>
+                <h2>Shows en Vivo</h2>
+                <p>Presentamos una variedad de espectáculos en vivo que van desde actuaciones con pistas hasta sesiones acústicas, enriqueciendo el ambiente con entretenimiento musical y actividades interactivas para disfrutar.</p>
+                <button class="boton-pequeno" id="boton-redireccionar">Saber más</button>
+            </div>
+        
+            <div class="sub-container" id="sub-container-2">
+                <div class="imagen-container">
+                    <img src="/static/pngs/tres.jpg" alt="Descripción de la imagen" class="imagen-pequena">
+                </div>
+                <h2>Fotografía</h2>
+                <p>Exploramos una gama de servicios fotográficos y de video para cubrir tus eventos con profesionalismo y creatividad, ofreciendo opciones personalizadas que capturan cada momento con detalle y estilo.</p>
+                <button class="boton-pequeno" id="boton-redireccionar2">Saber más</button>
+            </div>
+        </div>
+    </div>
+    <div class="maincontainer" id="journey">
+        <div class="big-container">
+            <div class="container" id="jj">
+                <div class="imagen-container">
+                    <img src="jp.png" alt="Descripción de la imagen" class="imagen-tarjeta">
+                </div>
+                <div>
+                    <h2>Journey</h2>
+                </div>
+                <div>
+                    <p id="pt">
+                        Cantante entregada y apasionada, mi voz es mi instrumento para transmitir emociones y conectar con el corazón de quienes escuchan
+                    </p>
+                </div>
+                <div class="text-container">
+                    <button class="boton-pequeno" id="boton-redireccionar-3">Facebook</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="maincontainer" id="frati">
+        <div class="big-container">
+            <div class="container" id="jj">
+                <div class="imagen-container">
+                    <img src="frati.png" alt="Descripción de la imagen" class="imagen-tarjeta">
+                </div>
+                <div>
+                    <h2>Fraticelli</h2>
+                </div>
+                <div>
+                    <p id="pt">
+                        Fotógrafo profesional y apasionado, realizo cada proyecto con dedicación y creatividad, buscando plasmar la belleza única de cada instante.
+                    </p>
+                </div>
+                <div class="text-container">
+                    <button class="boton-pequeno" id="boton-redireccionar-4">Instagram</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div> 
 
-		<!-- Page Wrapper
-			<div id="page-wrapper">
-					<header id="header" class="alt">
-						<h1><a href="index.html">Voces y Cuerdas</a></h1>
-					
-					</header>
-				-->
-				<!-- Banner -->
-					<section id="banner">
-						<div class="inner">
-		
-							<h2>Voces y Cuerdas</h2>
-							<p>Shows en Vivo, Acústicos y Más</a></p>
-						</div>
-					</section>
-
-				<!-- Wrapper -->
-					<section id="wrapper">
-
-						<!-- Journey -->
-							<section id="one" class="wrapper spotlight style2">
-								<div class="inner">
-									<a href="#" class="image"><img src="images/jj.png" alt="" /></a>
-									<div class="content">
-										<h2 class="major">Journey</h2>
-										<p>Cantante profesional con una amplia trayectoria de muchos años de experiencia en la industria musical. Poseo habilidades versátiles en diversos géneros, que abarcan desde baladas hasta rancheras, música típica y piezas bailables.</p>
-										<a href="https://www.facebook.com/jornaliz.santiago.1?mibextid=YMEMSu" class="special">Learn more</a>
-									</div>
-								</div>
-							</section>
-
-						<!-- Emir -->
-							<section id="two" class="wrapper alt spotlight style3">
-								<div class="inner">
-									<a href="#" class="image"><img src="images/emir.png" alt="" /></a>
-									<div class="content">
-										<h2 class="major">Emir Maldonado</h2>
-										<p>Titulado en Música, guitarrista y maestro de música, dedicado a proporcionar un ambiente cálido y acogedor en nuestros espectáculos musicales.</p>
-										<a href="https://www.facebook.com/maldonadoemir" class="special">Learn more</a>
-									</div>
-								</div>
-							</section>
-
-						<!-- Fraticelli -->
-							<section id="three" class="wrapper spotlight style4">
-								<div class="inner">
-									<a href="#" class="image"><img src="images/frati.png" alt="" /></a>
-									<div class="content">
-										<h2 class="major">Fraticelli</h2>
-										<p>Fotógrafo profesional comprometido en capturar tus momentos más especiales con excelencia y precisión.</p>
-										<a href="https://www.instagram.com/fotos_fraticelli?igsh=d2R3YnJ3cW5vdHh1" class="special">Learn more</a>
-									</div>
-								</div>
-							</section>
-
-						<!-- Proyecto -->
-							<section id="four" class="wrapper alt style1">
-								<div class="inner">
-									<h2 class="major">Proyectos</h2>
-									<p>Somos un equipo de profesionales que ofrecemos una amplia gama de servicios, con especialización en música y fotografía para contratos y eventos diversos.</p>
-									<section class="features">
-										<article>
-											<a href="#" class="image"><img src="images/show.jpg" alt="" /></a>
-											<h3 class="major">Show</h3>
-											<p>Un espectáculo de música variada y animación al público, interpretando desde rancheras hasta baladas y otros géneros musicales.</p>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/acustico.jpg" alt="" /></a>
-											<h3 class="major">Acustico</h3>
-											<p>Un dúo acústico cálido, completamente en vivo y familiar. </p>
-											
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/ac2.jpg" alt="" /></a>
-											<h3 class="major">Actividades</h3>
-											<p>Presentaciones de eventos que incluyen equipo de calidad, sonido impecable y una presentación artística excepcional.</p>
-											
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/maldo.jpg" alt="" /></a>
-											<h3 class="major">Fotografia</h3>
-											<p>
-												Fotógrafo profesional especializado en capturar actividades directamente, con una amplia variedad de paquetes de productos disponibles.</p>
-											
-										</article>
-									</section>
-								</div>
-							</section>
-							
-
-					</section>
-
-				<!-- Contacto -->
-					<section id="footer">
-						<div class="inner">
-							<h2 class="major">Contáctanos</h2>
-							<p>Si estás interesado en alguno de estos servicios, no dudes en contactarnos para que podamos brindarte lo mejor de nosotros.</p>
-							
-							<ul class="contact">
-								<li class="icon solid fa-phone">(939) 384-0786</li>
-								<li class="icon solid fa-envelope">vocesycuerdas2@gmail.com</li>
-								<li class="icon brands fa-facebook-f"><a href="https://www.facebook.com/jornaliz.santiago.1?mibextid=YMEMSu">Journey's facebook</a></li>
-								<li class="icon brands fa-instagram"><a href="https://www.instagram.com/journey_1312?igsh=MTB1MXhyNnl1czY0OQ%3D%3D&utm_source=qr">Journey's instagram</a></li>
-								
-							</ul>
-							<ul class="copyright">
-								<li>&copy; Untitled Inc. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</section>
-					
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <script>
+        document.getElementById("boton-redireccionar").addEventListener("click", function() {
+            // Obtenemos la posición del elemento al que queremos desplazarnos
+            const destino = document.getElementById("journey").offsetTop;
+            // Desplazamos la página hacia el elemento
+            window.scrollTo({
+                top: destino,
+                behavior: "smooth" // Para un desplazamiento suave
+            });
+        });
+        document.getElementById("boton-redireccionar2").addEventListener("click", function() {
+            // Obtenemos la posición del elemento al que queremos desplazarnos
+            const destino = document.getElementById("frati").offsetTop;
+            // Desplazamos la página hacia el elemento
+            window.scrollTo({
+                top: destino,
+                behavior: "smooth" // Para un desplazamiento suave
+            });
+        });
+        document.getElementById("boton-redireccionar-3").addEventListener("click", function() {
+        window.location.href = "https://www.facebook.com/jornaliz.santiago.1?mibextid=YMEMSu";
+        });
+        document.getElementById("boton-redireccionar-4").addEventListener("click", function() {
+        window.location.href = "https://www.instagram.com/fotos_fraticelli/";
+        });
+    </script>     
+</body>
 </html>
