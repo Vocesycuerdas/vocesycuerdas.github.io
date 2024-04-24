@@ -1,7 +1,7 @@
 body {
   font-family: "TT Norms", sans-serif; /* Tipo de fuente predeterminado */
   color: white;
-  background-color: #13072e;
+  background-color: #656D4A;
   margin: 0; /* Elimina el margen predeterminado del body */
   padding: 0; /* Elimina el padding predeterminado del body */
 }
@@ -16,7 +16,7 @@ body {
   justify-content: center; /* Centra verticalmente los elementos */
   align-items: center; /* Centra horizontalmente los elementos */
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%); /* Crea un polígono para cubrir toda la pantalla */
-  background-color: #13072e; /* Establece el color de fondo */
+  background-color: #656D4A; /* Establece el color de fondo */
   border-radius: 0; /* Elimina cualquier borde redondeado */
 }
 
@@ -29,12 +29,12 @@ body {
 .maincontainer p {
   margin-bottom: 20px; /* Ajusta el margen inferior de los párrafos según sea necesario */
   line-height: 1.5; /* Altura de línea para los párrafos */
-  color: #666; /* Color de texto para los párrafos */
+  color: #ffffff; /* Color de texto para los párrafos */
 }
 
 .big-container {
   width: 90%; /* Cambiado a 90% */
-  background-color: #3f2182;
+  background-color: #333d29;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -55,7 +55,7 @@ body {
 button {
   position: relative;
   padding: 12px 36px;
-  background-color: #6f59a3;
+  background-color: #656D4A;
   color: #FFFFFF;
   border: none;
   border-radius: 30px;
@@ -67,7 +67,7 @@ button {
 
 /* Estilos para el estado de hover del botÃ³n */
 button:hover {
-  color: #6f59a3; /* Cambia el color del texto al pasar el cursor */
+  color: #333d29; /* Cambia el color del texto al pasar el cursor */
   background-color: #FFFFFF; /* Cambia el color de fondo al pasar el cursor */
 }
 
@@ -164,7 +164,7 @@ button:hover {
 #banner .boton-pequeno {
   position: relative;
   padding: 12px 36px;
-  background-color: #6f59a3;
+  background-color: #333d29;
   color: #FFFFFF;
   border: none;
   border-radius: 30px;
@@ -172,6 +172,13 @@ button:hover {
   font-size: 16px;
   transition: color 0.3s ease, background-color 0.3s ease; /* AÃ±adimos la transiciÃ³n para el color del texto y del fondo */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Estilos para el estado de hover del botÃ³n */
+#banner button:hover {
+  color: #656D4A; /* Cambia el color del texto al pasar el cursor */
+  background-color: #FFFFFF; /* Cambia el color de fondo al pasar el cursor */
 }
 
 
