@@ -1,0 +1,362 @@
+body {
+  font-family: "TT Norms", sans-serif; /* Tipo de fuente predeterminado */
+  color: white;
+  background-color: #13072e;
+  margin: 0; /* Elimina el margen predeterminado del body */
+  padding: 0; /* Elimina el padding predeterminado del body */
+}
+
+
+
+.maincontainer {
+  height: 100vh; /* Establece la altura al 100% de la altura de la ventana */
+  width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+  box-sizing: border-box; /* Incluye el padding y border en el ancho y alto total */
+  padding: 20px; /* Ajusta el padding según sea necesario */
+  display: flex; /* Utiliza el modelo de caja flexible */
+  flex-direction: column; /* Apila los elementos dentro del contenedor verticalmente */
+  justify-content: center; /* Centra verticalmente los elementos */
+  align-items: center; /* Centra horizontalmente los elementos */
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%); /* Crea un polígono para cubrir toda la pantalla */
+  background-color: #13072e; /* Establece el color de fondo */
+  border-radius: 0; /* Elimina cualquier borde redondeado */
+}
+
+.maincontainer h2 {
+  margin-top: 0; /* Elimina el margen superior de los títulos */
+  font-size: 24px; /* Tamaño de fuente para los títulos */
+  color: #333; /* Color de texto para los títulos */
+}
+
+.maincontainer p {
+  margin-bottom: 20px; /* Ajusta el margen inferior de los párrafos según sea necesario */
+  line-height: 1.5; /* Altura de línea para los párrafos */
+  color: #666; /* Color de texto para los párrafos */
+}
+
+.big-container {
+  width: 90%; /* Cambiado a 90% */
+  background-color: #3f2182;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 20px; /* Especifica el radio de las esquinas */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Agrega una sombra hacia afuera */
+}
+
+
+.big-container .maincontainer {
+  margin-bottom: 30px; /* Ajusta el espacio entre los contenedores principales */
+}
+
+
+
+button {
+  position: relative;
+  padding: 12px 36px;
+  background-color: #6f59a3;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: color 0.3s ease, background-color 0.3s ease; /* AÃ±adimos la transiciÃ³n para el color del texto y del fondo */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el estado de hover del botÃ³n */
+button:hover {
+  color: #6f59a3; /* Cambia el color del texto al pasar el cursor */
+  background-color: #FFFFFF; /* Cambia el color de fondo al pasar el cursor */
+}
+
+#banner {
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
+  background-position: center; /* Centra la imagen de fondo */
+  padding: 20px; /* Ajusta el padding según sea necesario */
+}
+
+#banner .imagen-container {
+  width: 100%; /* Ancho de la imagen */
+  height: 50%; /* Altura de la imagen */
+  margin-top: 0px;
+  max-width: none; /* Elimina la restricción de ancho máximo */
+  max-height: none; /* Elimina la restricción de altura máxima */
+  overflow: hidden; /* Oculta el desbordamiento de la imagen */
+  display: flex; /* Utiliza el modelo de caja flexible */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+}
+
+#banner .maincontainer {
+  text-align: center; /* Centrar el contenido */
+}
+  
+.sub-container {
+  border-radius: 23px; /* Esquinas curvas */
+  padding: 10px; /* Espacio interior */
+  margin: 5px; /* Espacio horizontal entre contenedores */
+  display: inline-block; /* Mostrar en línea */
+  box-sizing: border-box; /* Incluir el padding y el borde en el ancho total */
+  width: 200px; /* Ancho manual */
+  height: 350px; /* Altura manual */
+  background-color: #ffffff; /* Fondo blanco */
+  background-image: linear-gradient(to bottom, #3f2182, #3f2182); /* Gradiente lineal */
+  text-align: center; /* Centra horizontalmente el contenido */
+}
+
+.imagen-pequena {
+  width: auto; /* La imagen ocupa el ancho máximo disponible */
+  height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+  max-width: 100%; /* La imagen no superará el 100% del contenedor */
+  max-height: 100%; /* La imagen no superará el 100% del contenedor */
+  margin: 0; /* Elimina los márgenes */
+  border-radius: 15px; /* Borde redondeado */
+}
+
+  
+#banner h1 {
+  margin: 0;
+  font-size: 40px; /* Tamaño de fuente relativo al ancho de la ventana */
+  text-align: left;
+  line-height: 1.2;
+  white-space: nowrap;
+  margin-left: 0px; /* Ajusta el margen izquierdo */
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 25px;
+  letter-spacing: -2px;
+}
+
+#banner h2 {
+  margin: 0;
+  color: white;
+  font-size:15px; /* Tamaño de fuente relativo al ancho de la ventana */
+  padding: 10px;
+  text-align: center;
+  line-height: 1.2;
+  white-space: nowrap;
+  margin-left: 0px; /* Ajusta el margen izquierdo */
+  margin-right: 0px;
+  margin-top: -10px;
+  margin-bottom: -5px;
+  letter-spacing: 0px;
+}
+#banner p {
+  text-align: center; /* Alinea el texto de derecha a izquierda */
+  font-size: 10px;
+  margin-left: 0px; /* Ajusta el margen izquierdo */
+  margin-right: 0px; /* Ajusta el margen derecho */
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+#banner #pt {
+  font-size: 14px; /* Tamaño de fuente ajustado */
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+/* Ajustar estilos para el botón dentro del contenedor "banner" */
+#banner .boton-pequeno {
+  font-size: 0.6em;
+  margin-top: auto; /* Alinea el botón al final del contenedor */
+}
+
+
+
+
+
+
+
+#journey {
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
+  background-position: center; /* Centra la imagen de fondo */
+  padding: 20px; /* Ajusta el padding según sea necesario */
+}
+
+#journey .imagen-container {
+  width: 100%; /* Ancho de la imagen */
+  height: 50%; /* Altura de la imagen */
+  margin-top: 0px;
+  max-width: none; /* Elimina la restricción de ancho máximo */
+  max-height: none; /* Elimina la restricción de altura máxima */
+  overflow: hidden; /* Oculta el desbordamiento de la imagen */
+  display: flex; /* Utiliza el modelo de caja flexible */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+}
+
+#journey .big-container {
+  text-align: center; /* Centrar el contenido */
+  width: 95%; /* Ancho de la imagen */
+  height: 90%; /* Altura de la imagen */
+}
+  
+
+
+/* Añadir estilos para el nuevo contenedor de texto dentro del div principal de "journey" */
+#journey .text-container {
+  flex-grow: 1; /* Permite que el contenedor de texto ocupe todo el espacio disponible */
+  padding: 10px; /* Espacio interior */
+  display: flex; /* Utiliza flexbox */
+  flex-direction: column; /* Apila los elementos verticalmente */
+  justify-content: center; /* Centra verticalmente */
+  align-items: center; /* Centra horizontalmente */
+}
+
+/* Ajustar estilos para el botón dentro del div principal de "journey" */
+#journey .boton-pequeno {
+  font-size: 1em;
+  margin-top: 10px; /* Alinea el botón al final del contenedor */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+
+/* Ajustar estilos para el contenedor de la imagen dentro del div principal de "journey" */
+#journey .imagen-container {
+  width: 100%; /* Ancho del contenedor de la imagen */
+  height: 60%; /* Altura del contenedor de la imagen (ajustar según sea necesario) */
+  margin-right: 0px; /* Espacio entre la imagen y el texto */
+  display: flex; /* Utiliza flexbox */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: flex-start; /* Centra verticalmente hacia arriba */
+}
+
+/* Ajustar estilos para la imagen dentro del div principal de "journey" */
+#journey .imagen-tarjeta {
+  max-width: 100%; /* Tamaño máximo de la imagen */
+  max-height: 100%; /* Tamaño máximo de la imagen */
+  margin-top: 0; /* Eliminar margen superior */
+}
+
+
+#journey h2 {
+  margin: 0;
+  color: white;
+  font-size: 40px; /* Tamaño de fuente relativo al ancho de la ventana */
+  text-align: center;
+  line-height: 1.2;
+  white-space: nowrap;
+  margin-left: 0px; /* Ajusta el margen izquierdo */
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  letter-spacing: 0px;
+}
+
+#journey h3 {
+  margin: 0;
+  color: white;
+  font-size: 32px; /* Tamaño de fuente relativo al ancho de la ventana */
+
+}
+
+#journey #pt {
+  font-size: 14px; /* Tamaño de fuente ajustado */
+  padding: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+
+
+
+#frati {
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
+  background-position: center; /* Centra la imagen de fondo */
+  padding: 20px; /* Ajusta el padding según sea necesario */
+}
+
+#frati .imagen-container {
+  width: 100%; /* Ancho de la imagen */
+  height: 50%; /* Altura de la imagen */
+  margin-top: 0px;
+  max-width: none; /* Elimina la restricción de ancho máximo */
+  max-height: none; /* Elimina la restricción de altura máxima */
+  overflow: hidden; /* Oculta el desbordamiento de la imagen */
+  display: flex; /* Utiliza el modelo de caja flexible */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+}
+
+#frati .big-container {
+  text-align: center; /* Centrar el contenido */
+  width: 95%; /* Ancho de la imagen */
+  height: 90%; /* Altura de la imagen */
+}
+  
+
+
+/* Añadir estilos para el nuevo contenedor de texto dentro del div principal de "frati" */
+#frati .text-container {
+  flex-grow: 1; /* Permite que el contenedor de texto ocupe todo el espacio disponible */
+  padding: 10px; /* Espacio interior */
+  display: flex; /* Utiliza flexbox */
+  flex-direction: column; /* Apila los elementos verticalmente */
+  justify-content: center; /* Centra verticalmente */
+  align-items: center; /* Centra horizontalmente */
+}
+
+/* Ajustar estilos para el botón dentro del div principal de "frati" */
+#frati .boton-pequeno {
+  font-size: 1em;
+  margin-top: 10px; /* Alinea el botón al final del contenedor */
+}
+
+
+/* Ajustar estilos para el contenedor de la imagen dentro del div principal de "frati" */
+#frati .imagen-container {
+  width: 100%; /* Ancho del contenedor de la imagen */
+  height: 60%; /* Altura del contenedor de la imagen (ajustar según sea necesario) */
+  margin-right: 0px; /* Espacio entre la imagen y el texto */
+  display: flex; /* Utiliza flexbox */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: flex-start; /* Centra verticalmente hacia arriba */
+}
+
+/* Ajustar estilos para la imagen dentro del div principal de "frati" */
+#frati .imagen-tarjeta {
+  max-width: 100%; /* Tamaño máximo de la imagen */
+  max-height: 100%; /* Tamaño máximo de la imagen */
+  margin-top: 0; /* Eliminar margen superior */
+}
+
+
+#frati h2 {
+  margin: 0;
+  color: white;
+  font-size: 40px; /* Tamaño de fuente relativo al ancho de la ventana */
+  text-align: center;
+  line-height: 1.2;
+  white-space: nowrap;
+  margin-left: 0px; /* Ajusta el margen izquierdo */
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  letter-spacing: 0px;
+}
+
+#frati h3 {
+  margin: 0;
+  color: white;
+  font-size: 32px; /* Tamaño de fuente relativo al ancho de la ventana */
+
+}
+
+#frati #pt {
+  font-size: 14px; /* Tamaño de fuente ajustado */
+  padding: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+
+
+
