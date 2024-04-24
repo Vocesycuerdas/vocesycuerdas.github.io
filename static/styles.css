@@ -161,16 +161,18 @@ button:hover {
   margin-bottom: 50px;
 }
 
-/* Ajustar estilos para el botón dentro del contenedor "banner" */
 #banner .boton-pequeno {
-  font-size: 0.6em;
-  margin-top: auto; /* Alinea el botón al final del contenedor */
+  position: relative;
+  padding: 12px 36px;
+  background-color: #6f59a3;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: color 0.3s ease, background-color 0.3s ease; /* AÃ±adimos la transiciÃ³n para el color del texto y del fondo */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
-
-
-
-
 
 
 #journey {
